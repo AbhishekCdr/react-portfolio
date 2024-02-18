@@ -21,7 +21,7 @@ const App = () => {
           <div
             className="relative w-full h-screen bg-bottom bg-no-repeat bg-contain"
             style={{
-              backgroundImage: "url('public/tech.png')",
+              backgroundImage: "url('./public/tech.png')",
               backgroundRepeat: "no-repeat",
               objectFit: "none",
             }}
