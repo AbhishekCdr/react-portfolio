@@ -14,7 +14,7 @@ const About = () => {
         <div className="ml-5 mt-8 mr-5 flex flex-col items-center lg:flex-row lg:justify-between">
           <div className="w-1/2 flex justify-center">
             <img
-              src="public/profile.png"
+              src="/static/images/profile.png"
               alt="profile"
               className="w-full lg:w-3/4 xl:w-1/2  mr-8 z-10 mb-5 "
             />
