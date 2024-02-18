@@ -4,7 +4,7 @@ import { HorizontalCard } from "./Card";
 const Projects = () => {
   const cardsData = [
     {
-      imageUrl: "src/assets/dice.jpg",
+      imageUrl: "public/dice.jpg",
       title: "Dice Game",
       description:
         "• Dice Game, an engaging and interactive project built using React",
@@ -14,7 +14,7 @@ const Projects = () => {
       live: "https://dice-game-orpin-theta.vercel.app/",
     },
     {
-      imageUrl: "src/assets/contact.png",
+      imageUrl: "public/contact.png",
       title: "FireBase Contact App",
       description:
         "• FireBase Contact App offers seamless user interaction and data management. It ensures real-time updates and synchronization",
@@ -26,7 +26,7 @@ const Projects = () => {
       live: "https://firebase-contact-app-one.vercel.app/",
     },
     {
-      imageUrl: "src/assets/smart.png",
+      imageUrl: "public/smart.png",
       title: "Smart-Brain",
       description:
         "• SmartBrain is a Full-Stack application with registration system, utilizing the Artificial Intelligence to let users perform face-detection on images they provided to the app by entering its URL address.",
@@ -38,7 +38,7 @@ const Projects = () => {
       live: "https://smart-brain-demo.vercel.app/",
     },
     {
-      imageUrl: "src/assets/gradient.png",
+      imageUrl: "public/gradient.png",
       title: "Background-Gradient Generator",
       description:
         "• The Background Gradient Color Generator App is a web application designed to empower users to create visually appealing gradient backgrounds effortlessly.",
@@ -49,7 +49,7 @@ const Projects = () => {
       live: "https://abhishekcdr.github.io/background-generator/",
     },
     {
-      imageUrl: "src/assets/robo.jpg",
+      imageUrl: "public/robo.jpg",
       title: "RoboFriends",
       description:
         "• robofriends is a Front-End application which filters the gallery of cards, loaded with data fetched from an external source, based on the user's input.",
@@ -58,7 +58,7 @@ const Projects = () => {
       live: "https://abhishekcdr.github.io/roboFriends/",
     },
     {
-      imageUrl: "src/assets/weather.jpg",
+      imageUrl: "public/weather.jpg",
       title: "Weather App",
       description:
         "• weatherApp is an api based application which fetch the weather, humidity and wind speed of location.",
