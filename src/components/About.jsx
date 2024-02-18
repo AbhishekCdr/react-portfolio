@@ -30,7 +30,11 @@ const About = () => {
         </div>
 
         <div className="py-10 flex justify-center">
-          <a href="https://drive.google.com/file/d/1IkaCRnpiHWhejruOlCOCH9LPrSRrR4fk/view?usp=drive_link">
+          <a
+            href="https://drive.google.com/file/d/1IkaCRnpiHWhejruOlCOCH9LPrSRrR4fk/view?usp=drive_link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Button
               size="lg"
               variant="gradient"
