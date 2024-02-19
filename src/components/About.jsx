@@ -6,7 +6,7 @@ const About = () => {
     <div className="grid w-full">
       <div
         className="flex flex-col bg-cover bg-top m-3"
-        style={{ backgroundImage: "url('src/assets/about.png')" }}
+        style={{ backgroundImage: "url('/static/images/about.png')" }}
       >
         <div className="flex flex-col justify-self-auto items-center mt-10">
           <div className="text-4xl font-bold">ABOUT ME</div>
