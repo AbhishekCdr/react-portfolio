@@ -16,11 +16,11 @@ const About = () => {
             <img
               src="/static/images/profile.png"
               alt="profile"
-              className="w-full lg:w-3/4 xl:w-1/2  mr-8 z-10 mb-5 "
+              className="w-full lg:w-3/4 xl:w-1/2  mr-8 z-10 mb-5"
             />
           </div>
-          <div className="w-1/2 lg:h-auto flex justify-center z-10">
-            <p className="text-2xl text-center font-customFont1 font-bold">
+          <div className="w-2/3 lg:h-auto flex justify-center z-10 ">
+            <p className="text-2xl text-center font-customFont1 font-bold mr-10">
               I am outgoing, dedicated, and open-minded. I work great with
               people and adjust to changes with ease. I believe that a person
               should work on developing their professional skills and learning

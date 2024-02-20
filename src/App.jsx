@@ -6,6 +6,7 @@ import Particle from "./components/Particle";
 import Projects from "./components/Projects";
 import { FooterWithLogo } from "./components/Footer";
 import { Link } from "react-scroll";
+import ScrollToTopButton from "./components/ScrollToTopButton";
 
 const App = () => {
   return (
@@ -58,6 +59,9 @@ const App = () => {
             <Projects />
           </section>
           <footer>
+            <div>
+              <ScrollToTopButton />
+            </div>
             <div id="footer">
               <FooterWithLogo />
             </div>
