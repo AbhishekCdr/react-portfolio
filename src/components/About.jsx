@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className="grid w-full">
       <div
-        className="m-3 flex flex-col bg-cover bg-top"
+        className=" flex flex-col bg-cover bg-top"
         style={{ backgroundImage: "url('/static/images/about.png')" }}
       >
         <div className="mt-10 flex flex-col items-center justify-self-auto">
@@ -16,11 +16,11 @@ const About = () => {
             <img
               src="/static/images/profile.png"
               alt="profile"
-              className="z-10 mb-5 mr-8  w-full lg:w-3/4 xl:w-1/2"
+              className="z-10 mb-5  w-full lg:w-3/4 xl:w-1/2"
             />
           </div>
           <div className="z-10 flex w-2/3 justify-center lg:h-auto ">
-            <p className="mr-10 text-center font-customFont1 text-2xl font-bold">
+            <p className=" mb-7 text-center font-customFont1 text-2xl font-bold">
               I am outgoing, dedicated, and open-minded. I work great with
               people and adjust to changes with ease. I believe that a person
               should work on developing their professional skills and learning
