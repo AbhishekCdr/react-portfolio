@@ -41,7 +41,7 @@ const App = () => {
                 </Button>
               </a>
             </div>
-            <div className="absolute bottom-0 left-0 mt-10 w-screen">
+            <div className="absolute bottom-0 left-0 mb-5 mt-10 w-screen">
               <div className="m-5 text-center text-xl font-bold">
                 Tech Stack
               </div>
