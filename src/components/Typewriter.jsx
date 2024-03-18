@@ -4,7 +4,7 @@ import "../App.css"; // Import your CSS file containing animation styles
 function Typewriter() {
   const [text, setText] = useState("");
   const phrases = [
-    "Hi, my name is Abhishek Kumar.I'm a Software & Web Developer",
+    "Hi, my name is Abhishek Kumar. I'm a Software & Web Developer",
   ];
 
   useEffect(() => {
@@ -29,7 +29,7 @@ function Typewriter() {
 
   return (
     <h1>
-      <div className="typewriter text-blue-950 text-4xl flex my-10 text-wrap text-center font-bold bg-gradient-to-r from-black via-blue-gray-600 to-blue-gray-900 text-transparent bg-clip-text animate-gradient bg-300%">
+      <div className="typewriter text-blue-950 m-5 my-10 flex animate-gradient text-wrap bg-gradient-to-r from-black via-blue-gray-600 to-blue-gray-900 bg-300% bg-clip-text text-center text-3xl font-bold text-transparent">
         <div>
           {text}
           <span className="cursor">&#9608;</span>

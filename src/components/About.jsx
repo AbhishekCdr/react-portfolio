@@ -12,11 +12,11 @@ const About = () => {
           <div className="text-4xl font-bold">ABOUT ME</div>
         </div>
         <div className="ml-5 mr-5 mt-8 flex flex-col items-center lg:flex-row lg:justify-between">
-          <div className="flex w-1/2 justify-center">
+          <div className="flex w-1/2 justify-center ">
             <img
               src="/static/images/profile.png"
               alt="profile"
-              className="z-10 mb-5  w-full lg:w-3/4 xl:w-1/2"
+              className="z-10 mb-5 lg:w-3/4 xl:w-1/2"
             />
           </div>
           <div className="z-10 flex w-2/3 justify-center lg:h-auto ">
