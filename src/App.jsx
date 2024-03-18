@@ -48,67 +48,67 @@ const App = () => {
               <ul className="flex flex-wrap justify-center gap-6 ">
                 <li>
                   <img
-                    src="public/static/tech/bootstrap.png"
+                    src="/static/images/tech/bootstrap.png"
                     className="max-h-16 max-w-16 rounded-xl shadow-xl transition delay-75 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"
                   />
                 </li>
                 <li>
                   <img
-                    src="public/static/tech/css.png"
+                    src="/static/images/tech/css.png"
                     className="max-h-16 max-w-16 rounded-xl shadow-xl transition delay-75 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"
                   />
                 </li>
                 <li>
                   <img
-                    src="public/static/tech/express.png"
+                    src="/static/images/tech/express.png"
                     className="max-h-16 max-w-16 rounded-xl shadow-xl transition delay-75 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"
                   />
                 </li>
                 <li>
                   <img
-                    src="public/static/tech/github.png"
+                    src="/static/images/tech/github.png"
                     className="max-h-16 max-w-16 rounded-xl shadow-xl transition delay-75 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"
                   />
                 </li>
                 <li>
                   <img
-                    src="public/static/tech/html5.png"
+                    src="/static/images/tech/html5.png"
                     className="max-h-16 max-w-16 rounded-xl shadow-xl transition delay-75 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"
                   />
                 </li>
                 <li>
                   <img
-                    src="public/static/tech/java.png"
+                    src="/static/images/tech/java.png"
                     className="max-h-16 max-w-16 rounded-xl shadow-xl transition delay-75 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"
                   />
                 </li>
                 <li>
                   <img
-                    src="public/static/tech/javascript.png"
+                    src="/static/images/tech/javascript.png"
                     className="max-h-16 max-w-16 rounded-xl shadow-xl transition delay-75 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"
                   />
                 </li>
                 <li>
                   <img
-                    src="public/static/tech/nodejs.png"
+                    src="/static/images/tech/nodejs.png"
                     className="max-h-16 max-w-16 rounded-xl shadow-xl transition delay-75 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"
                   />
                 </li>
                 <li>
                   <img
-                    src="public/static/tech/react.png"
+                    src="/static/images/tech/react.png"
                     className="max-h-16 max-w-16 rounded-xl shadow-xl transition delay-75 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"
                   />
                 </li>
                 <li>
                   <img
-                    src="public/static/tech/sql.png"
+                    src="/static/images/tech/sql.png"
                     className="max-h-16 max-w-16 rounded-xl shadow-xl transition delay-75 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"
                   />
                 </li>
                 <li>
                   <img
-                    src="public/static/tech/tailwind.png"
+                    src="/static/images/tech/tailwind.png"
                     className="max-h-16 max-w-16 rounded-xl shadow-xl transition delay-75 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"
                   />
                 </li>
