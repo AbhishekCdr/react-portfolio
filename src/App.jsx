@@ -19,7 +19,7 @@ const App = () => {
         </header>
         <div className="flex-grow">
           <Particle />
-          <div className=" mt-10 flex h-screen w-full flex-col items-center justify-self-auto bg-bottom">
+          <div className="mt-6 flex h-screen w-full flex-col items-center justify-self-auto bg-bottom">
             <Typewriter />
             <div>
               <a href="#about">
