@@ -41,8 +41,8 @@ const App = () => {
                 </Button>
               </a>
             </div>
-            <div className="absolute bottom-0 left-0 mb-5 mt-10 w-screen">
-              <div className="m-5 text-center text-xl font-bold">
+            <div className="absolute bottom-0 left-0 mb-5 mt-10 grid w-full justify-items-center">
+              <div className="m-5 justify-center text-center text-xl font-bold">
                 Tech Stack
               </div>
               <ul className="flex flex-wrap justify-center gap-6 ">
