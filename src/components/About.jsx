@@ -24,12 +24,12 @@ const About = () => {
           </div>
 
           <div className="z-10 flex w-2/3 flex-col justify-center lg:h-auto ">
-            <p className=" mb-7 text-start font-customFont1 text-xs font-bold sm:text-xl md:text-xl lg:text-2xl xl:text-2xl ">
+            <p className=" mb-7 text-start font-customFont1 text-sm font-bold sm:text-xl md:text-xl lg:text-2xl xl:text-2xl ">
               Hi, my name is Abhishek Kumar, and I'm a Full Stack Developer. I'm
               outgoing, dedicated, and open-minded. I work great with people and
               adjust to changes with ease.
             </p>
-            <p className=" mb-7 text-start font-customFont1 text-xs font-bold sm:text-xl md:text-xl lg:text-2xl xl:text-2xl ">
+            <p className=" mb-7 text-start font-customFont1 text-sm font-bold sm:text-xl md:text-xl lg:text-2xl xl:text-2xl ">
               I believe that a person should work on developing their
               professional skills and learning new things all the time.
             </p>
