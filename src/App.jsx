@@ -1,17 +1,19 @@
 import { NavbarSimple } from "./components/NavbarSimple";
-import Typewriter from "./components/Typewriter";
+// import Typewriter from "./components/Typewriter";
 import About from "./components/About";
 import { Button } from "@material-tailwind/react";
 import Particle from "./components/Particle";
 import Projects from "./components/Projects";
 import { FooterWithLogo } from "./components/Footer";
-import { Link } from "react-scroll";
+import { Link, Element } from "react-scroll";
 import ScrollToTopButton from "./components/ScrollToTopButton";
+import Hero from "./components/Hero";
+import TechStack from "./components/TechStack";
 
 const App = () => {
   return (
     <>
-      <div className=" flex min-h-screen flex-col">
+      <div className=" box-border flex min-h-screen flex-col">
         <header>
           <div>
             <NavbarSimple />
@@ -19,13 +21,14 @@ const App = () => {
         </header>
         <div className="flex-grow">
           <Particle />
-          <div className="mt-6 flex h-screen w-full flex-col items-center justify-self-auto bg-bottom">
-            <Typewriter />
-            <div>
+          <Element className="mt-3 flex h-screen w-full flex-col items-center bg-bottom ">
+            <Hero />
+            <TechStack />
+            {/* <div>
               <a href="#about">
                 <Button
                   size="md"
-                  variant="gradient"
+                  variant="gradien8"
                   ripple={true}
                   className="mt-5 font-customFont font-thin"
                 >
@@ -40,88 +43,15 @@ const App = () => {
                   </Link>
                 </Button>
               </a>
-            </div>
-            <div className="absolute bottom-0 left-0 mb-5 mt-10 grid w-full justify-items-center">
-              <div className="m-5 justify-center text-center text-xl font-bold">
-                Tech Stack
-              </div>
-              <ul className="flex flex-wrap justify-center gap-6 ">
-                <li>
-                  <img
-                    src="/static/images/tech/bootstrap.png"
-                    className="max-h-16 max-w-16 rounded-xl shadow-xl transition delay-75 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"
-                  />
-                </li>
-                <li>
-                  <img
-                    src="/static/images/tech/css.png"
-                    className="max-h-16 max-w-16 rounded-xl shadow-xl transition delay-75 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"
-                  />
-                </li>
-                <li>
-                  <img
-                    src="/static/images/tech/express.png"
-                    className="max-h-16 max-w-16 rounded-xl shadow-xl transition delay-75 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"
-                  />
-                </li>
-                <li>
-                  <img
-                    src="/static/images/tech/github.png"
-                    className="max-h-16 max-w-16 rounded-xl shadow-xl transition delay-75 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"
-                  />
-                </li>
-                <li>
-                  <img
-                    src="/static/images/tech/html5.png"
-                    className="max-h-16 max-w-16 rounded-xl shadow-xl transition delay-75 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"
-                  />
-                </li>
-                <li>
-                  <img
-                    src="/static/images/tech/java.png"
-                    className="max-h-16 max-w-16 rounded-xl shadow-xl transition delay-75 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"
-                  />
-                </li>
-                <li>
-                  <img
-                    src="/static/images/tech/javascript.png"
-                    className="max-h-16 max-w-16 rounded-xl shadow-xl transition delay-75 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"
-                  />
-                </li>
-                <li>
-                  <img
-                    src="/static/images/tech/nodejs.png"
-                    className="max-h-16 max-w-16 rounded-xl shadow-xl transition delay-75 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"
-                  />
-                </li>
-                <li>
-                  <img
-                    src="/static/images/tech/react.png"
-                    className="max-h-16 max-w-16 rounded-xl shadow-xl transition delay-75 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"
-                  />
-                </li>
-                <li>
-                  <img
-                    src="/static/images/tech/sql.png"
-                    className="max-h-16 max-w-16 rounded-xl shadow-xl transition delay-75 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"
-                  />
-                </li>
-                <li>
-                  <img
-                    src="/static/images/tech/tailwind.png"
-                    className="max-h-16 max-w-16 rounded-xl shadow-xl transition delay-75 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"
-                  />
-                </li>
-              </ul>
-            </div>
-          </div>
+            </div> */}
+          </Element>
 
-          <div id="about">
+          <Element id="about">
             <About />
-          </div>
-          <section id="project">
+          </Element>
+          <Element id="project">
             <Projects />
-          </section>
+          </Element>
           <footer>
             <div>
               <ScrollToTopButton />

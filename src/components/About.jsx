@@ -3,7 +3,7 @@ import { Button } from "@material-tailwind/react";
 
 const About = () => {
   return (
-    <div className="grid w-full">
+    <div className="grid h-screen w-full">
       <div
         className=" flex flex-col bg-cover bg-top"
         style={{ backgroundImage: "url('/static/images/about.png')" }}
@@ -12,19 +12,26 @@ const About = () => {
           <div className="text-4xl font-bold">ABOUT ME</div>
         </div>
         <div className="ml-5 mr-5 mt-8 flex flex-col items-center lg:flex-row lg:justify-between">
-          <div className="flex w-1/2 justify-center ">
+          <div className=" relative mb-10 flex w-1/2 justify-center">
             <img
-              src="/static/images/profile.png"
+              src="/static/images/stack.png"
               alt="profile"
-              className="z-10 mb-5 lg:w-3/4 xl:w-1/2"
+              className="z-10 animate-spin-slow rounded-full md:w-1/2 lg:w-3/4 xl:w-1/2"
             />
+            <h1 className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transform text-center text-7xl md:text-8xl lg:text-8xl">
+              🧑‍💻
+            </h1>
           </div>
-          <div className="z-10 flex w-2/3 justify-center lg:h-auto ">
-            <p className=" mb-7 text-center font-customFont1 text-2xl font-bold">
-              I am outgoing, dedicated, and open-minded. I work great with
-              people and adjust to changes with ease. I believe that a person
-              should work on developing their professional skills and learning
-              new things all the time.
+
+          <div className="z-10 flex w-2/3 flex-col justify-center lg:h-auto ">
+            <p className=" mb-7 text-start font-customFont1 text-xs font-bold sm:text-xl md:text-xl lg:text-2xl xl:text-2xl ">
+              Hi, my name is Abhishek Kumar, and I'm a Full Stack Developer. I'm
+              outgoing, dedicated, and open-minded. I work great with people and
+              adjust to changes with ease.
+            </p>
+            <p className=" mb-7 text-start font-customFont1 text-xs font-bold sm:text-xl md:text-xl lg:text-2xl xl:text-2xl ">
+              I believe that a person should work on developing their
+              professional skills and learning new things all the time.
             </p>
           </div>
         </div>
