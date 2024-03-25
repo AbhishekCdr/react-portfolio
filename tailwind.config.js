@@ -6,7 +6,7 @@ export default withMT({
     extend: {
       fontFamily: {
         customFont: ['"Orbitron"', "sans-serif"],
-        customFont1: ['"Handlee"', "sans-serif"],
+        customFont1: ['"Mulish"', "sans-serif"],
         customFont2: ['"Reem+Kufi+Ink"', "Teko"],
       },
       keyframes: {
@@ -20,6 +20,8 @@ export default withMT({
         "300%": "300%",
       },
       animation: {
+        "spin-slow": "spin 13s linear infinite",
+        "spin-slow1": "spin 13s linear infinite",
         gradient: "animatedgradient 6s ease infinite alternate",
       },
     },
