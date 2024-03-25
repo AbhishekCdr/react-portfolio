@@ -10,13 +10,13 @@ export function FooterWithLogo() {
         <Typography
           as="a"
           color="blue-gray"
-          className="text-2xl transition-colors font-customFont font-bold text-center p-5"
+          className="p-5 text-center font-customFont text-2xl font-bold transition-colors"
         >
           Contact
         </Typography>
       </li>
-      <div className="flex flex-row items-center justify-center gap-y-6 gap-x-12 bg-white text-center">
-        <ul className="flex flex-wrap items-center gap-y-2 gap-x-16">
+      <div className="flex flex-row items-center justify-center gap-x-12 gap-y-6 bg-white text-center">
+        <ul className="flex flex-wrap items-center gap-x-16 gap-y-2">
           <li>
             <Typography
               as="a"
@@ -63,7 +63,7 @@ export function FooterWithLogo() {
           </li> */}
         </ul>
       </div>
-      <hr className="my-8 border-blue-gray-50" />
+      <hr className="my-7 border-blue-gray-50" />
       <Typography color="blue-gray" className="text-center font-customFont2">
         &copy; 2024 Abhishek Kumar
       </Typography>

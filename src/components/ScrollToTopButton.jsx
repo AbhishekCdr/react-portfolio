@@ -16,10 +16,10 @@ const ScrollToTopButton = () => {
 
     <button
       onClick={scrollToTop}
-      className="fixed bottom-4 right-4 p-3 bg-blue-500 text-white rounded-full shadow-md hover:bg-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-600"
+      className="fixed bottom-4 right-4 rounded-full bg-blue-500 p-3 text-white shadow-md hover:bg-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
     >
       <svg
-        className="w-6 h-6 "
+        className="h-6 w-6 "
         fill="none"
         stroke="currentColor"
         viewBox="0 0 24 24"

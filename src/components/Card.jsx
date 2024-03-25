@@ -32,13 +32,13 @@ export function HorizontalCard({
         >
           {title}
         </Typography>
-        <Typography color="gray" className="font-normal">
+        <Typography color="gray" className="font-customFont1 text-sm">
           {description}
         </Typography>
-        <Typography color="gray" className="font-normal">
+        <Typography color="gray" className="font-customFont1 text-sm">
           {description1}
         </Typography>
-        <Typography color="gray" className="mb-3 font-normal">
+        <Typography color="gray" className="mb-3 font-customFont1 text-sm">
           {description2}
         </Typography>
         <a

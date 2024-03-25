@@ -15,9 +15,9 @@ function NavList() {
         as="li"
         variant="small"
         color="blue-gray"
-        className="font-customFont p-1 font-medium"
+        className="p-1 font-customFont font-medium"
       >
-        <a className="flex items-center cursor-pointer hover:text-blue-500 transition-colors">
+        <a className="flex cursor-pointer items-center transition-colors hover:text-blue-500">
           <Link to="about" spy={true} smooth={true} offset={-70} duration={500}>
             About
           </Link>
@@ -27,9 +27,9 @@ function NavList() {
         as="li"
         variant="small"
         color="blue-gray"
-        className="font-customFont p-1 font-medium"
+        className="p-1 font-customFont font-medium"
       >
-        <a className="flex items-center cursor-pointer hover:text-blue-500 transition-colors">
+        <a className="flex cursor-pointer items-center transition-colors hover:text-blue-500">
           <Link
             to="project"
             spy={true}
@@ -45,9 +45,9 @@ function NavList() {
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1 font-medium font-customFont"
+        className="p-1 font-customFont font-medium"
       >
-        <a className="flex items-center cursor-pointer hover:text-blue-500 transition-colors">
+        <a className="flex cursor-pointer items-center transition-colors hover:text-blue-500">
           <Link
             to="footer"
             spy={true}
@@ -86,7 +86,7 @@ export function NavbarSimple() {
           variant="h6"
           className="mr-4 cursor-pointer py-1.5"
         >
-          <span class=" font-customFont2 bg-300% text-2xl font-bold bg-gradient-to-r from-orange-700 via-blue-500 to-green-400 text-transparent bg-clip-text animate-gradient">
+          <span class=" animate-gradient bg-gradient-to-r from-orange-700 via-blue-500 to-green-400 bg-300% bg-clip-text font-customFont2 text-2xl font-bold text-transparent">
             WELCOME TO MY PORTFOLIO
           </span>
         </Typography>
