@@ -1,13 +1,22 @@
-import React from "react";
 import { HorizontalCard } from "./Card";
 
 const Projects = () => {
   const cardsData = [
     {
+      imageUrl: "/static/images/upstox.png",
+      title: "Upstox Clone",
+      description:
+        "• Upstox Platform clone made using Reactjs and Tailwind CSS",
+      description1:
+        "• Fetched realtime Charts and Data using tradingview widgets",
+      git: "https://github.com/AbhishekCdr/upstox-clone",
+      live: "https://upstox-clone-theta.vercel.app/",
+    },
+    {
       imageUrl: "/static/images/dice.jpg",
       title: "Dice Game",
       description:
-        "• Dice Game, an engaging and interactive project built using React",
+        "• Dice Game, an engaging and interactive project built using React and styled-component",
       description1:
         "• This project offers a fun and challenging experience where players can test their luck and intuition by selecting a number, rolling the virtual dice, and earning points based on their guess.",
       git: "https://github.com/AbhishekCdr/Dice_Game",
@@ -68,9 +77,9 @@ const Projects = () => {
     },
   ];
   return (
-    <div>
-      <div className="flex flex-col justify-self-auto items-center ">
-        <div className="text-4xl font-bold py-10">PROJECTS</div>
+    <>
+      <div className="clear-both flex flex-col items-center justify-self-auto">
+        <div className="py-10 text-4xl font-bold">PROJECTS</div>
       </div>
       <div className="grid grid-flow-row auto-rows-max justify-items-center gap-10 px-6">
         {cardsData.map((card, index) => (
@@ -86,7 +95,7 @@ const Projects = () => {
           />
         ))}
       </div>
-    </div>
+    </>
   );
 };
 

@@ -1,11 +1,9 @@
 import { NavbarSimple } from "./components/NavbarSimple";
-// import Typewriter from "./components/Typewriter";
 import About from "./components/About";
-import { Button } from "@material-tailwind/react";
 import Particle from "./components/Particle";
 import Projects from "./components/Projects";
 import { FooterWithLogo } from "./components/Footer";
-import { Link, Element } from "react-scroll";
+import { Element } from "react-scroll";
 import ScrollToTopButton from "./components/ScrollToTopButton";
 import Hero from "./components/Hero";
 import TechStack from "./components/TechStack";
@@ -19,7 +17,7 @@ const App = () => {
             <NavbarSimple />
           </div>
         </header>
-        <div className="flex-grow">
+        <div className="flex-grow ">
           <Particle />
           <Element className="mt-3 flex h-screen w-full flex-col items-center bg-bottom ">
             <Hero />

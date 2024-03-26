@@ -1,9 +1,8 @@
-import React from "react";
 import { Button } from "@material-tailwind/react";
 
 const About = () => {
   return (
-    <div className="grid h-screen w-full">
+    <div className="mb-20 grid h-screen w-full">
       <div
         className=" flex flex-col bg-cover bg-top"
         style={{ backgroundImage: "url('/static/images/about.png')" }}
