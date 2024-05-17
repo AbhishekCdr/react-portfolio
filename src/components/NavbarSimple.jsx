@@ -86,7 +86,7 @@ export function NavbarSimple() {
           variant="h6"
           className="mr-4 cursor-pointer py-1.5"
         >
-          <span class=" animate-gradient bg-gradient-to-r from-orange-700 via-blue-500 to-green-400 bg-300% bg-clip-text font-customFont2 text-2xl font-bold text-transparent">
+          <span className=" animate-gradient bg-gradient-to-r from-orange-700 via-blue-500 to-green-400 bg-300% bg-clip-text font-customFont2 text-2xl font-bold text-transparent">
             WELCOME TO MY PORTFOLIO
           </span>
         </Typography>

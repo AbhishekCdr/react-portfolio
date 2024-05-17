@@ -1,4 +1,4 @@
-import React from "react";
+/* eslint-disable react/no-unescaped-entities */
 import Type from "./Type";
 import { Typography } from "@material-tailwind/react";
 import { FaLinkedinIn } from "react-icons/fa";
