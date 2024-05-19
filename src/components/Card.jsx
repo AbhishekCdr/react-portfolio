@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import {
   Card,
   CardHeader,
@@ -16,13 +17,17 @@ export function HorizontalCard({
   description2,
 }) {
   return (
-    <Card className="w-full max-w-[70rem] flex-row">
+    <Card className="flex w-full max-w-[70rem] flex-col sm:flex-row">
       <CardHeader
         shadow={false}
         floated={false}
-        className="m-0 w-2/5 shrink-0 rounded-r-none"
+        className="m-0 h-64 w-full shrink-0 overflow-hidden sm:w-2/5 sm:rounded-r-none"
       >
-        <img src={imageUrl} alt="card-image" className="h-auto w-full" />
+        <img
+          src={imageUrl}
+          alt="card-image"
+          className="h-auto w-full grayscale-0 "
+        />
       </CardHeader>
       <CardBody>
         <Typography

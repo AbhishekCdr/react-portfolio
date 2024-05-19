@@ -3,7 +3,19 @@ import { HorizontalCard } from "./Card";
 const Projects = () => {
   const cardsData = [
     {
-      imageUrl: "/static/images/upstox.png",
+      imageUrl: "/static/images/ip.gif",
+      title: "IP Address Tracker",
+      description:
+        "• IP Address Tracker is a Web-API application which aims to show real time IP address deatil of the IP address or Domain",
+      description1:
+        "• Developed using HTML, CSS, JavaScript and Tailwind CSS for responsive design. ",
+      description2:
+        "• Used geo.ipify.org for IP Details and leafLet for Fetching Map",
+      git: "https://github.com/AbhishekCdr/ip-tracker",
+      live: "https://abhishekcdr.github.io/ip-tracker/",
+    },
+    {
+      imageUrl: "/static/images/upstox.gif",
       title: "Upstox Clone",
       description:
         "• Upstox Platform clone made using Reactjs and Tailwind CSS",
@@ -13,7 +25,7 @@ const Projects = () => {
       live: "https://upstox-clone-theta.vercel.app/",
     },
     {
-      imageUrl: "/static/images/dice.jpg",
+      imageUrl: "/static/images/dice.gif",
       title: "Dice Game",
       description:
         "• Dice Game, an engaging and interactive project built using React and styled-component",
@@ -23,7 +35,7 @@ const Projects = () => {
       live: "https://dice-game-orpin-theta.vercel.app/",
     },
     {
-      imageUrl: "/static/images/contact.png",
+      imageUrl: "/static/images/contact.gif",
       title: "FireBase Contact App",
       description:
         "• FireBase Contact App offers seamless user interaction and data management. It ensures real-time updates and synchronization",
@@ -35,7 +47,7 @@ const Projects = () => {
       live: "https://firebase-contact-app-one.vercel.app/",
     },
     {
-      imageUrl: "/static/images/smart.png",
+      imageUrl: "/static/images/smart.gif",
       title: "Smart-Brain",
       description:
         "• SmartBrain is a Full-Stack application with registration system, utilizing the Artificial Intelligence to let users perform face-detection on images they provided to the app by entering its URL address.",
@@ -47,7 +59,7 @@ const Projects = () => {
       live: "https://smart-brain-demo.vercel.app/",
     },
     {
-      imageUrl: "/static/images/gradient.png",
+      imageUrl: "/static/images/gradient.gif",
       title: "Background-Gradient Generator",
       description:
         "• The Background Gradient Color Generator App is a web application designed to empower users to create visually appealing gradient backgrounds effortlessly.",
@@ -58,7 +70,7 @@ const Projects = () => {
       live: "https://abhishekcdr.github.io/background-generator/",
     },
     {
-      imageUrl: "/static/images/robo.jpg",
+      imageUrl: "/static/images/robo.gif",
       title: "RoboFriends",
       description:
         "• robofriends is a Front-End application which filters the gallery of cards, loaded with data fetched from an external source, based on the user's input.",
@@ -67,7 +79,7 @@ const Projects = () => {
       live: "https://abhishekcdr.github.io/roboFriends/",
     },
     {
-      imageUrl: "/static/images/weather.jpg",
+      imageUrl: "/static/images/weather.gif",
       title: "Weather App",
       description:
         "• weatherApp is an api based application which fetch the weather, humidity and wind speed of location.",
@@ -81,7 +93,7 @@ const Projects = () => {
       <div className="clear-both flex flex-col items-center justify-self-auto">
         <div className="py-10 text-4xl font-bold">PROJECTS</div>
       </div>
-      <div className="grid grid-flow-row auto-rows-max justify-items-center gap-10 px-6">
+      <div className="grid grid-flow-row auto-rows-max justify-items-center gap-10 px-6 ">
         {cardsData.map((card, index) => (
           <HorizontalCard
             key={index}
