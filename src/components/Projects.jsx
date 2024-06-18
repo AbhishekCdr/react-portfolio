@@ -3,6 +3,17 @@ import { HorizontalCard } from "./Card";
 const Projects = () => {
   const cardsData = [
     {
+      imageUrl: "/static/images/urlShortener.gif",
+      title: "URL Shortener",
+      description:
+        "• IP Address Tracker is a Full-Stack application which aims to Shorten URL and save a track record of how many times Shortened link has been opened",
+      description1:
+        "• Developed using React, Tailwind for FrontEnd, ExpressJS for handling apis and MYSql for handling Database. ",
+      description2: "• Created a System Design Diagram of the same",
+      git: "https://github.com/AbhishekCdr/url-client",
+      live: "https://url-shortener-client-eight.vercel.app/",
+    },
+    {
       imageUrl: "/static/images/ip.gif",
       title: "IP Address Tracker",
       description:

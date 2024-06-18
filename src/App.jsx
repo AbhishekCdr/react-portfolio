@@ -18,7 +18,7 @@ const App = () => {
           </div>
         </header>
         <div className="flex-grow ">
-          <Particle />
+          {/* <Particle /> */}
           <Element className="mt-3 flex h-screen w-full flex-col items-center bg-bottom ">
             <Hero />
             <TechStack />

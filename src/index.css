@@ -1,5 +1,9 @@
 @tailwind base;
 
+/* * {
+  background-color: #fffafa;
+} */
+
 *::-webkit-scrollbar {
   width: 10px;
 }
