@@ -38,7 +38,7 @@ const About = () => {
 
         <div className="flex justify-center py-10">
           <a
-            href="https://drive.google.com/file/d/1x3qSSPmUH67d0UsWLSORqRG0obNvpSLQ/view?usp=sharing"
+            href="https://drive.google.com/file/d/1nxzb2Zm_4KOuHSVPUOGUUnKPYMl6CLda/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
           >
